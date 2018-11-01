@@ -5,6 +5,8 @@ cfg = docker.Config('/data/')
 params = cfg.get_parameters()
 
 print("Hello world from python")
+print(params['sound'])
+print(params['repeat'])
 
 csvlt = '\n'
 csvdel = ','
